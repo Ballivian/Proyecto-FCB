@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+body {
+   
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(27, 109, 233);
+    
+}
+.header {
+    background-color: rgb(250, 246, 31, 0.9);
+    border-color: red;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+    z-index: 10;
+    padding-right: 40px;
+    display: inline-block;
+    
+
+}
+.estilo__viñetas{
+    text-align: left;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none    ;
+    font-size: 35px;
+    }
+
+
+.logotipo {
+
+  display: inline-block;
+  top: 100px;
+  
+  
+    
+} 
+
+
+
+
+
+
+main {
+    margin-top: 132px;
+    background-color: rgb(27, 109, 233);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: grey;
+    padding-left: 1rem;
+    margin-right: 0%;
+    }
+    .links {
+        text-decoration: none;
+        color: black;
+    }
+    .footer_firstsection {
+        display: inline-block;
+    
+    }
+    
+    
+    .footer_lastsection {
+        padding-bottom: 2rem;
+        padding-top: 0.5rem;
+    
+        display: inline-block;
+        margin-left: 77%;
+        
+    
+        }
+    .footer_h3 {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        font-weight:bolder ;
+        font-size: 30px;
+        
+    
+    }    
+    .footer_redessociales {
+       
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        
+        
+       
+    }

@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body {
+   
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(27, 109, 233);
+    
+}
+
+.header {
+    background-color: rgb(250, 246, 31, 0.9);
+    border-color: red;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+   
+    z-index: 10;
+    padding-right: 40px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+
+
+    
+
+}
+
+.estilo__viñetas{
+    text-align: left;
+    
+    padding: 1rem;
+    text-decoration: none    ;
+    font-size: 35px;
+    line-height: 50px;
+    }
+
+
+.logotipo {
+
+  
+  top: 100px;
+  
+  
+  
+    
+} 
+
+
+
+#main {
+    margin-top: 132px;
+    background-color: rgb(27, 109, 233);
+    
+    
+    margin-bottom: 150px;
+
+}
+.index_main_video {
+margin-bottom: 30px;
+padding-left: 25%;
+padding-right: 25%;
+background-color: rgba(150, 66, 66, 0.849);
+
+}
+
+.h1font {
+    font-size: 80px;
+    text-decoration:underline;
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+
+
+.h2font {
+    font-size: 60px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-decoration:underline;
+    background-color: white;
+    border: 5px ;
+    border-style: double;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+.fotoequipo {
+    overflow: hidden;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 3rem;
+    
+
+}
+.lorem {
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: dotted;
+    border-color: 5px 
+    
+    
+}
+.lorem2 {
+    background-color: rgb(235, 164, 78);
+    font-size:  18px;
+    padding: 25px;
+    border-style: solid ;
+    font-weight: bolder;
+    margin-left: 1rem;
+    margin-right: 15%;
+    
+    
+
+}
+.lorem3 {
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+    margin-left: 15rem;
+    
+    border-style: dotted;
+    border-color: 5px;
+    background-color: rgba(49, 49, 49, 0.808);
+    color: white;
+}
+.lorem4 {
+    background-color: rgb(235, 164, 78);
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+    margin-right: 15rem;
+    border-style: dotted;
+    color: black;
+    font-weight: bolder;
+    
+}
+.lorem5 {
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+     
+    border-style: dotted;
+    border-color: 5px;
+    background-color: rgba(49, 49, 49, 0.808);
+    color: white;
+}
+footer {
+background-color: grey;
+
+margin-right: 0%;
+bottom: 100%;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.footer_firstsection {
+    display: grid;
+    padding-left: 1rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "ele1 ele2"
+    "ele3 ele4"
+    ;
+    
+
+
+}
+
+
+
+.contacto_h3 {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    
+    font-size: 30px;
+    border-style: dotted;
+    color: rgb(255, 255, 15);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    grid-area: ele1    ;
+    justify-self: left;
+    margin-top: 1rem;
+    
+
+} 
+.redes_h3 {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    font-weight:bolder ;
+    font-size: 30px;
+    border-style: dotted;
+    color: rgb(255, 255, 15);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    text-align: right;
+    grid-area: ele2;
+    justify-self: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+
+}   
+.footer_redessociales {
+   
+    color: white;
+    
+    text-decoration: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    
+    
+   
+}
+.ele3_section {
+    grid-area: ele3;
+}
+.ele4_section {
+    
+    grid-area: ele4;
+    text-align: right;
+    margin-right: 1rem;
+    
+    
+}
+.redes_links {
+    color: white;
+    
+    
+    text-decoration: none;
+    
+
+}
+#campnou_video {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(150, 66, 66, 0.849);
+}
+.fotocampnou {
+    width: 1350px;
+    height: 700px;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+}
+#jugadores_video {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(150, 66, 66, 0.849);
+}
+.xavifoto {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 2rem;
+    margin-left: 25%;
+}
+#video_logros {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(150, 66, 66, 0.849);
+}
+#fotocontacto {
+    margin-bottom: 30px;
+    padding-left: 30%;
+    background-color: rgba(150, 66, 66, 0.849);
+}
+.formulario1 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+
+}
+.formulario2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+.caja_formulario {
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+    
+    
+    border-style: solid;
+    border-color: 5px;
+    background-color: rgba(49, 49, 49, 0.808);
+    color: white;
+    list-style-type: square;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .header {
+        display: flex;
+    }
+    .index_main_video {
+        display: flex;
+    }
+    .fotoequipo {
+        display: flex}
+    
+}
+@media screen and (max-width: 767px) {
+    .index_main_video {
+        display: flex;
+    }
+
+
+
+}
+@media screen and (max-width: 600px) {
+    .header {
+        display: none;
+    }
+   
+    .index_main_video {
+        display: none;
+    }
+    
+    .fotoequipo {
+        display: none;}
+}
