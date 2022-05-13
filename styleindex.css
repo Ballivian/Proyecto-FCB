@@ -7,7 +7,7 @@
 body {
    
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to left, rgb(207, 40, 40), rgb(37, 37, 214) );
+    
     
 }
 
@@ -33,6 +33,11 @@ body {
 
     
 
+}
+.color_text_nav {
+    color: blue;
+    font-weight: bolder;
+    font-size: 23px;
 }
 
 .estilo__viñetas{
@@ -60,14 +65,15 @@ body {
 
 
 
+
 #main {
-    margin-top: 132px;
-    
+    padding-top: 132px;
+    background-image: linear-gradient(to left, rgb(207, 40, 40), rgb(37, 37, 214) );
 
     
     
     
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 
 }
 .index_main_video {
@@ -120,16 +126,23 @@ background-color: rgba(0, 0, 0, 0.4);
     
 
 }
+.size_text_nav {
+    font-size: 32px;
+    font-weight: bolder;
+
+}
 .lorem {
     background-color: antiquewhite;
-    text-align: justify;
+    
     font-size: 18px;
-    padding: 50px;
+    padding: 25px;
     margin-left: 15%;
     margin-right: 15%;
     border-style: dotted;
     border-color: 5px;
     transition: all 2.5s;
+    max-height: 35vh;
+    
     }
 .lorem:hover {
     background-image: linear-gradient(to top, rgb(0, 255, 221), rgb(196, 82, 152));
@@ -144,6 +157,7 @@ background-color: rgba(0, 0, 0, 0.4);
     font-weight: bolder;
     margin-left: 1rem;
     margin-right: 15%;
+    max-height: 35vh;
     
     
 
@@ -181,10 +195,10 @@ background-color: rgba(0, 0, 0, 0.4);
     color: white;
 }
 footer {
-background-color: grey;
+background-color: rgba(128, 128, 128, 0.829);
 
 margin-right: 0%;
-bottom: 100%;
+padding-bottom: 30px;
 }
 .links {
     text-decoration: none;
@@ -205,7 +219,12 @@ bottom: 100%;
 }
 
 
-
+.footer_h3 {
+    color: rgb(255, 255, 15);
+    font-weight: bolder;
+    text-decoration: none;
+    max-height: 100%;
+}
 .contacto_h3 {
     padding-top: 1rem;
     padding-bottom: 1.2rem;
@@ -232,7 +251,7 @@ bottom: 100%;
     text-decoration: none;
     text-align: right;
     grid-area: ele2;
-    justify-self: right;
+    justify-self: right ;
     margin-top: 1rem;
     margin-right: 1rem;
     
@@ -251,6 +270,8 @@ bottom: 100%;
 }
 .ele3_section {
     grid-area: ele3;
+    font-weight: bolder;
+    color: black;
 }
 .ele4_section {
     
@@ -274,10 +295,10 @@ bottom: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 .fotocampnou {
-    width: 1350px;
-    height: 700px;
-    margin-left: 10%;
-    margin-bottom: 2rem;
+    overflow: hidden;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 3rem;
 }
 #jugadores_video {
     margin-bottom: 30px;
@@ -328,34 +349,82 @@ bottom: 100%;
 }
 
 
-@media screen and (max-width: 1023px) {
-    .header {
-        display: flex;
-    }
+@media screen and (max-width: 1025px) {
+    
     .index_main_video {
         display: flex;
+        margin-bottom: 30px;
+        padding-left: 25%;
+        padding-right: 25%;
     }
-    .fotoequipo {
-        display: flex}
+    #campnou_video {
+        display: flex;
+        margin-bottom: 30px;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .h1font {
+        
+        font-weight: bolder;
+    }
     
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .index_main_video {
         display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
     }
-
-
+    #campnou_video {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .h1font {
+        
+        font-weight: bolder;
+    }
 
 }
-@media screen and (max-width: 600px) {
-    .header {
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+    
    
     .index_main_video {
-        display: none;
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
     }
+    #campnou_video {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+   
+    .contacto_h3 {
+        font-size: 20px;
+        border: none;
+        
+        padding-bottom: 0px;
     
-    .fotoequipo {
-        display: none;}
-}
+    }
+    .redes_h3{
+        font-size: 20px;
+        border: none;
+        
+        padding-bottom: 0px;
+         }
+    .ele3_section {
+        font-size: 12px;
+    }
+    .ele4_section {
+        font-size: 12px;
+    }
+    .h1font {
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    }

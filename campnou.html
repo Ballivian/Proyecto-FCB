@@ -8,19 +8,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+       <!-- Vinculación de boostrap - CSS - Forma Externa -CDN -Sin descargar -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styleindex.css">
+  
 </head>
 <body>
     <header class="header">
-		
-		<nav>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand size_text_nav" href="#">
+                    <img class="logotipo" src="./imagenes/escudobarcelona.png" alt="escudo barcelona"  class="d-inline-block align-text-top ">
+                    FCB
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav " >
+                  <li class="nav-item color_text_nav">
+                    <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item color_text_nav">
+                    <a class="nav-link text-primary" href="campnou.html">campnou</a>
+                  </li>
+                  <li class="nav-item color_text_nav">
+                    <a class="nav-link text-primary" href="jugadore.html">Jugadores</a>
+                  </li>
+                  <li class="nav-item color_text_nav">
+                    <a class="nav-link text-primary" href="logros.html">Logros</a>
+                  </li>
+                  <li class="nav-item color_text_nav">
+                    <a class="nav-link text-primary" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+		<!-- <nav>
 			<img class="logotipo" src="./imagenes/escudobarcelona.png" width="55" height="55" alt="escudo barcelona">
                 <a class="estilo__viñetas" href="index.html">Home</a>
 				<a class="estilo__viñetas" href="campnou.html">Camp Nou</a>
 				<a class="estilo__viñetas" href="jugadore.html">Jugadores</a>
 				<a class="estilo__viñetas" href="logros.html">Logros</a>
 				<a class="estilo__viñetas" href="contacto.html">Contacto</a>
-		</nav>
+		</nav> -->
 	</header>
 	<main id="main">
 		<h1 class="h1font">EL MEJOR ESTADIO DEL MUNDO</h1>
@@ -28,14 +62,19 @@
         </section>
 		
         
-        <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, velit. Eaque, corrupti. Quisquam aliquid accusamus dolores architecto pariatur explicabo quod, dolorem maxime repudiandae expedita corrupti debitis nulla, delectus, possimus iusto?
+        <p class="lorem overflow-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, velit. Eaque, corrupti. Quisquam aliquid accusamus dolores architecto pariatur explicabo quod, dolorem maxime repudiandae expedita corrupti debitis nulla, delectus, possimus iusto?
 		Debitis neque necessitatibus temporibus at quod, voluptatibus quis expedita suscipit, pariatur, impedit vero assumenda nam maiores quasi minima architecto officiis sed? Perspiciatis consectetur veritatis distinctio est nihil deleniti eveniet repellat?
 		Quae est illo qui obcaecati, earum excepturi adipisci error accusantium eum ex, praesentium cupiditate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem quia itaque molestias odio accusantium accusamus voluptas esse vel vitae quod qui repellendus suscipit at assumenda exercitationem, quaerat maxime amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio suscipit sed vero voluptas, a aperiam dicta aspernatur, recusandae nam voluptatem qui officia exercitationem corrupti eveniet iste eius porro earum.
         Numquam itaque eos, aperiam eius voluptate iste dolorem aut, autem ad, nulla nihil illum sit. Dolores deleniti suscipit cum laborum nemo distinctio ducimus, laudantium aperiam? Quae error corporis voluptates repellendus. facere nisi quod. Commodi, non sit officiis id, suscipit minus atque odio illum, nostrum porro voluptates!</p>
 
         <h2 class="h2font">Ahora es nuestro turno</h2>
-        <section><img class="fotocampnou" src="./imagenes/fotocampnou.jpg" alt="fotocampnou"></section>
-        <p class="lorem">
+
+        <section class="fotocampnou">
+            <img class="img-fluid rounded mx-auto d-block" src="./imagenes/fotocampnou.jpg" alt="fotocampnou">
+        </section>
+
+
+        <p class="lorem overflow-auto">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, nulla dicta. Quisquam excepturi voluptas repellendus, nobis cumque aspernatur ipsam accusamus, a aut quia, doloribus harum commodi esse. Corrupti, eveniet sed?
         Odit nesciunt unde nulla neque illum sequi maiores consequatur, minima harum quo, natus magni voluptates itaque possimus totam temporibus dolorem nemo sit recusandae? Temporibus dolores tempora, recusandae quam culpa expedita!
         Praesentium provident temporibus dolore dolorum nobis aspernatur asperiores. Eaque, vero dolore harum et voluptatem dignissimos quod corrupti minus, molestias doloribus expedita animi quasi laboriosam reprehenderit? Labore, quaerat. Labore, dolorem eaque.
@@ -78,5 +117,8 @@
     
         </section>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
