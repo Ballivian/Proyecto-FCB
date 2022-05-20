@@ -1,0 +1,95 @@
+footer {
+    background-color: rgba(128, 128, 128, 0.829);
+    
+    margin-right: 0%;
+    padding-bottom: 30px;
+    }
+    .links {
+        text-decoration: none;
+        color: black;
+    }
+    .footer_firstsection {
+        display: grid;
+        padding-left: 1rem;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+        "ele1 ele2"
+        "ele3 ele4"
+        ;
+        
+    
+    
+    }
+    
+    
+    .footer_h3 {
+        color: $color-amarillo;
+        font-weight: bolder;
+        text-decoration: none;
+        max-height: 100%;
+    }
+    .contacto_h3 {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        
+        font-size: 30px;
+        border-style: dotted;
+        color: $color-amarillo;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        grid-area: ele1    ;
+        justify-self: left;
+        margin-top: 1rem;
+        
+    
+    } 
+    .redes_h3 {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        font-weight:bolder ;
+        font-size: 30px;
+        border-style: dotted;
+        color: $color-amarillo;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        text-align: right;
+        grid-area: ele2;
+        justify-self: right ;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        
+    
+    }   
+    .footer_redessociales {
+       
+        color: white;
+        
+        text-decoration: none;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        
+        
+       
+    }
+    .ele3_section {
+        grid-area: ele3;
+        font-weight: bolder;
+        color: black;
+    }
+    .ele4_section {
+        
+        grid-area: ele4;
+        text-align: right;
+        margin-right: 1rem;
+        
+        
+    }
+    .redes_links {
+        color: white;
+        
+        
+        text-decoration: none;
+        
+    
+    }

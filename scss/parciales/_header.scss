@@ -1,0 +1,39 @@
+.header {
+    background-color: rgba(230, 255, 4, 0.836);
+    border-color: red;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+   
+    z-index: 10;
+    padding-right: 40px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder;
+    animation-duration: 2.5s;
+    animation-name: leftshow;
+    animation-iteration-count: initial;
+    
+
+    .header__color_text_nav {
+        color: blue;
+        font-weight: bolder;
+        font-size: 23px;
+    }
+    .header__logotipo{
+    
+      
+        top: 100px;
+        width: 55px ;
+        height:55px;
+        transition: all 2s;
+           
+      } 
+    .header__logotipo:hover {
+        transform: scale(1.1,1.05);
+      }
+    
+
+}

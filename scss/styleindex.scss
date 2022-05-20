@@ -1,0 +1,148 @@
+@import "parciales/_variables.scss";
+@import "parciales/_parcial1.scss";
+@import "parciales/_header.scss";
+@import "parciales/_cardindex.scss";
+@import "parciales/_lorem.scss";
+@import "parciales/_footer.scss";
+@import "parciales/_mediaquerys";
+
+#main {
+    padding-top: 132px;
+    background-image: linear-gradient(to left, rgb(207, 40, 40), rgb(37, 37, 214) );
+
+    
+    
+    
+    padding-bottom: 150px;
+
+}
+.index_main_video {
+margin-bottom: 30px;
+padding-left: 28%;
+padding-right: 25%;
+background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.h1font {
+    font-size: 80px;
+    text-decoration:underline;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation-duration: 2.5s;
+    animation-name: leftshow;
+    animation-iteration-count: initial;
+    color: white;
+
+    }
+@keyframes leftshow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.h2font {
+    font-size: 60px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-decoration:underline;
+    background-color: white;
+    border: 5px ;
+    border-style: double;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+.h3font {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 245, 38, 0.733);
+    margin-left: 30% ;
+    margin-right: 30%;
+    margin-bottom: 30px;
+}
+.fotoequipo {
+    overflow: hidden;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 3rem;
+    
+
+}
+.size_text_nav {
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+
+
+
+#campnou_video {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.fotocampnou {
+    overflow: hidden;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 3rem;
+}
+#jugadores_video {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.xavifoto {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 2rem;
+    margin-left: 25%;
+}
+#video_logros {
+    margin-bottom: 30px;
+    padding-left: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#fotocontacto {
+    margin-bottom: 30px;
+    padding-left: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.formulario1 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+
+}
+.formulario2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+.caja_formulario {
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px;
+    
+    
+    border-style: solid;
+    border-color: 5px;
+    background-color: rgba(49, 49, 49, 0.808);
+    color: rgb(217, 255, 0);
+    list-style-type: square;
+}
+
+
+
+   
