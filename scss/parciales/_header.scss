@@ -1,6 +1,5 @@
 .header {
-    background-color: rgba(230, 255, 4, 0.836);
-    border-color: red;
+    background-color: map-get($background-color , header__nav );
     position: fixed;
     width: 100%;
     top: 0;

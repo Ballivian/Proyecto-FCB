@@ -19,7 +19,6 @@ body {
 
 .header {
   background-color: rgba(230, 255, 4, 0.836);
-  border-color: red;
   position: fixed;
   width: 100%;
   top: 0;
@@ -165,12 +164,7 @@ footer {
   padding-bottom: 30px;
 }
 
-.links {
-  text-decoration: none;
-  color: black;
-}
-
-.footer_firstsection {
+footer .footer_firstsection {
   display: grid;
   padding-left: 1rem;
   grid-template-columns: 50% 50%;
@@ -178,14 +172,7 @@ footer {
   grid-template-areas: "ele1 ele2" "ele3 ele4";
 }
 
-.footer_h3 {
-  color: #fbff00;
-  font-weight: bolder;
-  text-decoration: none;
-  max-height: 100%;
-}
-
-.contacto_h3 {
+footer .footer_firstsection .contacto_h3 {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
   font-size: 30px;
@@ -198,7 +185,14 @@ footer {
   margin-top: 1rem;
 }
 
-.redes_h3 {
+footer .footer_firstsection .contacto_h3 .footer_h3 {
+  color: #fbff00;
+  font-weight: bolder;
+  text-decoration: none;
+  max-height: 100%;
+}
+
+footer .footer_firstsection .redes_h3 {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
   font-weight: bolder;
@@ -214,26 +208,31 @@ footer {
   margin-right: 1rem;
 }
 
-.footer_redessociales {
+footer .footer_firstsection .footer_redessociales {
   color: white;
   text-decoration: none;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
 
-.ele3_section {
+footer .footer_firstsection .ele3_section {
   grid-area: ele3;
   font-weight: bolder;
   color: black;
 }
 
-.ele4_section {
+footer .footer_firstsection .ele4_section {
   grid-area: ele4;
   text-align: right;
   margin-right: 1rem;
 }
 
-.redes_links {
+footer .footer_firstsection .ele4_section .links {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer_firstsection .ele4_section .redes_links {
   color: white;
   text-decoration: none;
 }

@@ -1,14 +1,15 @@
+// @import "parciales/_variables2.scss ";
 @import "parciales/_variables.scss";
 @import "parciales/_parcial1.scss";
 @import "parciales/_header.scss";
 @import "parciales/_cardindex.scss";
 @import "parciales/_lorem.scss";
 @import "parciales/_footer.scss";
-@import "parciales/_mediaquerys";
+@import "parciales/_mediaquerys.scss";
 
 #main {
     padding-top: 132px;
-    background-image: linear-gradient(to left, rgb(207, 40, 40), rgb(37, 37, 214) );
+    background-image: map-get($background-color, main );
 
     
     
@@ -20,7 +21,7 @@
 margin-bottom: 30px;
 padding-left: 28%;
 padding-right: 25%;
-background-color: rgba(0, 0, 0, 0.4);
+background-color: map-get($background-color, shadow__video );
 
 }
 
@@ -87,7 +88,7 @@ background-color: rgba(0, 0, 0, 0.4);
 #campnou_video {
     margin-bottom: 30px;
     padding-left: 25%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: map-get($background-color, shadow__video );
 }
 .fotocampnou {
     overflow: hidden;
@@ -98,7 +99,7 @@ background-color: rgba(0, 0, 0, 0.4);
 #jugadores_video {
     margin-bottom: 30px;
     padding-left: 25%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: map-get($background-color, shadow__video );
 }
 .xavifoto {
     width: 800px;
@@ -109,12 +110,12 @@ background-color: rgba(0, 0, 0, 0.4);
 #video_logros {
     margin-bottom: 30px;
     padding-left: 25%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: map-get($background-color, shadow__video );
 }
 #fotocontacto {
     margin-bottom: 30px;
     padding-left: 30%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: map-get($background-color, shadow__video );
 }
 .formulario1 {
     font-size: 28px;
