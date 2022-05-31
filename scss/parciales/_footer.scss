@@ -3,7 +3,6 @@ footer {
     
     margin-right: 0%;
     padding-bottom: 30px;
-    padding-right: 1rem;
     .footer_firstsection {
         display: grid;
         padding-left: 1rem;
@@ -49,10 +48,10 @@ footer {
         text-decoration: none;
         text-align: right;
         grid-area: ele2;
-        justify-self: right ;
+        justify-self: center ;
         
         margin-top: 1rem;
-        
+        margin-right: 1rem;
         
     
     }   
