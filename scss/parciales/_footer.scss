@@ -3,6 +3,7 @@ footer {
     
     margin-right: 0%;
     padding-bottom: 30px;
+    padding-right: 1rem;
     .footer_firstsection {
         display: grid;
         padding-left: 1rem;
@@ -38,10 +39,10 @@ footer {
     
     } 
     .redes_h3 {
-        padding-top: 1rem;
+        padding-top: 0.8rem;
         padding-bottom: 1.2rem;
         font-weight:bolder ;
-        font-size: 30px;
+        font-size: 20px;
         border-style: dotted;
         color: $color-amarillo;
         margin-bottom: 1rem;
@@ -49,8 +50,9 @@ footer {
         text-align: right;
         grid-area: ele2;
         justify-self: right ;
+        
         margin-top: 1rem;
-        margin-right: 1rem;
+        
         
     
     }   
